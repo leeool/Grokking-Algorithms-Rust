@@ -2,6 +2,9 @@ fn main() {
     let list = [4, 6, 8, 10, 12, 14, 16, 18, 20];
     let index = binary_search_2(&list, 4);
 
+ 
+
+
     println!("{:?}", index);
 }
 
