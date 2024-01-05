@@ -1,6 +1,8 @@
 fn main() {
     let list = [4, 6, 8, 10, 12, 14, 16, 18, 20];
     let index = binary_search(&list, 4);
+    let a: Option<u32> = Some(40);
+    let b = a.map(|c| c + 40);
 
     println!("{:?}", index);
 }
